@@ -1,4 +1,4 @@
-BeYou Studio — Lead Magnet Project
+BeYou Studio - Lead Magnet Project
 
 Overview
 BeYou Studio is a modern beauty and wellness concept focused on delivering personalized skincare solutions. Built around the idea that “your skin is trying to tell you something,” this project creates an interactive lead magnet that helps users discover their unique skin profile while enabling salons to capture high-quality leads.
