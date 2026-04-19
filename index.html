@@ -607,6 +607,7 @@ footer .logo { margin-bottom: 10px; opacity: 0.7; }
   .btn-primary { width: 100%; }
 }
 </style>
+<link rel="icon" type="image/png" href="/logo.png">
 </head>
 <body>
 
@@ -1308,21 +1309,6 @@ function submitLead() {
     document.getElementById('f-name').style.borderColor  = name  ? '' : '#e06060';
     document.getElementById('f-phone').style.borderColor = phone ? '' : '#e06060';
     return;
-    
-  fetch("/api/submit-lead", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({
-    name,
-    phone,
-    email: document.getElementById('f-email').value,
-    city: document.getElementById('f-city').value,
-    answers,
-    profile: determineProfile()
-  })
-});
   }
 
   const pk = determineProfile();
